@@ -1,0 +1,311 @@
+/*Esto es para menu principal */
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Merriweather', serif;
+}
+
+li{
+	list-style: none;
+	margin-right: 25px;
+	margin-top: 25px;
+}
+
+
+.menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.menu a:hover{
+	text-decoration: underline;
+	
+ }
+
+.pie{
+	display: flex;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
+p{
+	font-size: 20px;
+	margin-top: 20px;
+	font-weight: 800;
+}
+
+/* Esto va para titular */
+
+a{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+}
+
+.titular{
+	text-align: center;
+	margin-top: 100px;
+}
+
+h1{
+	font-size: 55px;
+	color:  #000000;
+	margin-top: 150px;
+
+}
+
+h2{
+	font-size: 30px;
+	margin-bottom: 40px;
+	color: white;
+}
+
+header{
+	height: 100vh;
+	background: url(portada.jpg);
+	background-size: cover;
+}
+
+	/* Esto va para sobremi */
+
+h3{
+	font-size: 55px;
+	text-align: center;
+
+}
+
+.contenedor-cabezera{
+	max-width: 1280px;
+	width: 90%;
+	margin: auto;
+
+}
+.contenedor-sobremi{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: linear-gradient(#8E8261, transparent);
+}
+
+.parrafo-boton{
+	width: 42%;
+}
+
+.parrafo-boton p{
+	font-size: 22px;
+}
+
+.parrafo-boton a{
+	margin-top: 20px;
+	display: inline-block; /*cambio de linea a bloque con esa opcion*/
+}
+
+.contenedor-servicios{
+	display: flex;
+	flex-wrap: wrap;/* elementos flexibles deben ajustarse o no*/
+	justify-content: space-around; /*distribuye el mismo espacio alrededor*/
+}
+
+.servicios{
+	width: 25%;
+	padding: 30PX;
+	margin-bottom: 40PX;
+	border-radius: 20PX;
+	color: #ffff;
+}
+
+.violeta{
+	background: #D8479B;
+
+}
+
+.celeste{
+	background: #9D509E;
+
+}
+
+.servicios h4{
+	font-size: 30px;
+}
+
+
+.servicios p{
+	font-size: 25px;
+}
+
+
+.servicios img{
+	float: right; /*mueve imagen a  derecha*/
+}
+
+.contenedor-sobremi p{
+	text-align: justify;
+}
+
+.contenedor-servicios p{
+	text-align: justify;
+}
+
+#blog{
+	background: linear-gradient(#8E8261, transparent);
+	padding-top: 50px;
+	
+}
+.contenedor-publicaciones{
+	display: flex;
+	justify-content: space-around;
+
+
+}
+
+.publicacion{
+	width: 30%;
+	box-shadow: 18px -13px 14px #8E8261;
+	color:black;
+	
+}
+.publicacion a{
+
+	text-decoration: none;
+	color: white;
+	background: #808080;
+	padding: 10px;
+}
+
+#blog img{
+	width: 100%;
+}
+
+
+
+span{
+	font-size: 60px;
+	color: #746686;
+}
+
+.owl-nav{
+	text-align: center;
+}
+
+#whatsapp a{
+	background: none;
+	position: fixed;
+	top: 85%;
+	right: 15px;
+}
+
+#facebook a{
+	background: none;
+	position: fixed;
+	top: 65%;
+	right: 15px;
+}
+
+footer{
+	margin: 0;
+	background: #808080;
+    padding: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.menu-icono{
+	display: none;
+}				
+				@media(max-width: 480px){
+			      header{
+			      
+				      height:100vh ;
+			         margin-bottom: 15px;
+			
+			
+				}
+				nav{
+					position: absolute;
+					top: 70px;
+					left: 0px;
+					background: #5cb8ff;
+					width: 100%;
+				}
+				nav .pie{
+					flex-direction: column;
+					display: flex;
+					padding: 40px;
+					left: 0px;
+				}
+				.menu-icono{
+					display: block;
+					width: 50px;
+			       height: 35px;
+				   margin-top: 15px;
+			
+				}
+				
+				h1{
+					font-size: 35px;
+			
+				}
+				h2{
+					font-size: 20px;
+					color: red;
+					margin-top: 0px;
+			
+				}
+			
+				.titular{
+					margin-top: 185px;
+			
+				}
+			   .titular iframe{
+			   	width: 560px;
+			    height: 300px;
+			   
+			   }
+			
+				.contenedor-sobremi{
+					flex-direction: column;
+			
+					}
+			
+					.parrafo-boton{
+						width: 90%;
+						text-align: center;	
+			}
+			
+			.contenedor-servicios{
+				width: 320%;
+				margin: 0;
+				margin-bottom: 15%;
+				flex-direction: column;
+			
+			}
+			
+			.contenedor-publicaciones{
+				flex-direction: column;
+				width: 280%;
+				margin: auto;
+			}
+			  .contenedor-publicaciones a {
+			   background: #5DADE2;
+			}
+			
+			.publicaciones{
+				width: 90%;
+				margin: auto;
+				margin-bottom: 25%;
+			}
+			
+
+		}
+
+
+
+			@media (max-width:850px){
+			
+			
+			}
+
+
